@@ -10,7 +10,7 @@ import '../../core/structure.dart';
 import '../../samples/impl/arctekko/arc_routes.dart';
 import '../create/create_navigation.dart';
 import '../create/create_single_file.dart';
-import '../formatter_dart_file/frommatter_dart_file.dart';
+import '../formatter_dart_file/formatter_dart_file.dart';
 
 void arcAddRoute(String nameRoute) {
   var routesFile = File(Structure.replaceAsExpected(

@@ -19,7 +19,7 @@ class PubspecUtils {
 
   static String get pubspecString => _pubspecFile.readAsStringSync();
 
-  static get pubspecJson => loadYaml(pubspecString);
+  static dynamic get pubspecJson => loadYaml(pubspecString);
 
   /// separtor
   static final _mapSep = _PubValue<String>(() {

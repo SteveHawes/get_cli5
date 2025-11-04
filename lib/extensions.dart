@@ -1,4 +1,4 @@
-library get_cli5.extensions;
+library;
 
 export 'package:get_cli5/core/internationalization.dart' show TranslationExt;
 export 'package:get_cli5/extensions/list.dart';

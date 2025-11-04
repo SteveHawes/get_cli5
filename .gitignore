@@ -15,6 +15,10 @@ doc/api/
 # The .vscode folder contains launch configuration and tasks you configure in
 .vscode/
 
+# The .history folder contains versioned copies of edited files created by some
+# code editors like Visual Studio Code with the "Local History" extension.
+.history/
+
 # Avoid committing generated Javascript files:
 *.dart.js
 *.info.json      # Produced by the --dump-info flag.

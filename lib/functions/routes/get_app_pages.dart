@@ -8,7 +8,7 @@ import '../../common/utils/pubspec/pubspec_utils.dart';
 import '../../samples/impl/get_app_pages.dart';
 import '../create/create_single_file.dart';
 import '../find_file/find_file_by_name.dart';
-import '../formatter_dart_file/frommatter_dart_file.dart';
+import '../formatter_dart_file/formatter_dart_file.dart';
 import 'get_support_children.dart';
 
 void addAppPage(String name, String bindingDir, String viewDir) {
